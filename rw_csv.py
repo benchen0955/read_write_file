@@ -1,6 +1,6 @@
 import csv
 #write csv for database
-
+#https://github.com/benchen0955/30-Days-of-Python-by-udemy-/blob/master/PythonCheatSheet.md
 with open("data.csv", "w+") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["Col 1", "Col 2"])
