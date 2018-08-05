@@ -1,5 +1,6 @@
 import csv
 #read csv for database
+#https://github.com/benchen0955/30-Days-of-Python-by-udemy-/blob/master/PythonCheatSheet.md
 
 def get_length(file_path):
     with open("data.csv") as csvfile:
