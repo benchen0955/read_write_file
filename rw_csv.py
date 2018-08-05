@@ -1,5 +1,5 @@
 import csv
-#write csv for excel
+#write csv for database
 
 with open("data.csv", "w+") as csvfile:
     writer = csv.writer(csvfile)
